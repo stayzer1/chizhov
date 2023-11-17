@@ -1,0 +1,42 @@
+.header {
+  .links {
+    display: flex;
+    justify-content: center;
+    grid-gap: 50px;
+    margin-top: 35px;
+    a {
+      color: #F4F4F4;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 3.2px;
+      text-transform: uppercase;
+    }
+    a:hover {
+      color: red;
+      transition: all 0.2s ease-out;;
+  }
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    grid-gap: 40px;
+    margin-top: 100px;
+    &-btn {
+      cursor: pointer;
+      padding: 15px 21px;
+      background-color: #222629;
+      gap: 10px;
+      border: 1px solid #ECECEC;
+      color: #ECECEC;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 3.2px;
+      text-transform: uppercase;
+    }
+    &-btn:hover {
+      background-color: white;
+      color: #222629;
+      transition: all 0.2s ease-in;
+    }
+  }
+}

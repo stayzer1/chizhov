@@ -1,0 +1,217 @@
+@media (max-width: 991px) {
+    .header {
+        .links {
+            letter-spacing: 1.5px;
+            grid-gap: 40px;
+        }
+        .nav {
+            margin-top: 60px;
+            grid-gap: 20px;
+        }
+    }
+    .splide {
+        &__arrows {
+            img {
+                height: 80px;
+            }
+        }
+        &__arrow {
+            align-items: baseline!important;
+        }
+    }
+}
+@media (max-width: 910px) {
+    .header {
+        .nav {
+            margin-top: 40px;
+            grid-gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .header {
+        .nav {
+            margin-top: 40px;
+            grid-gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+}
+.splide {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.footer {
+    &__links {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        letter-spacing: 1.5px;
+        grid-gap: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        .links {    
+            grid-gap: 30px;
+            a {
+                letter-spacing: 1px;
+            }
+        }
+        .nav {
+            margin-top: 60px;
+            grid-gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+    .splide {
+        &__arrows {
+            img {
+                height: 60px;
+            }
+        }
+        &__arrow {
+            align-items: baseline!important;
+        }
+    }
+    .slider__title {
+        font-size: 22px;
+        margin-top: 70px;
+    }
+    .splide {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .slider-btn {
+        padding: 20px 40px;
+        font-size: 16px;
+    }
+    .footer {
+        &__links {
+            grid-gap: 30px;
+            a {
+                letter-spacing: 1px;
+            }
+        }
+        
+    }
+}
+@media (max-width: 567px) {
+    .header {
+        .links {
+            grid-gap: 20px;
+            a {
+                font-size: 14px;
+            }
+        }
+        .nav {
+            &-btn {
+                padding: 10px 15px;
+                font-size: 16px;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+    .slider__title {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .splide {
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        &__arrows {
+            img {
+                height: 60px;
+            }
+        }
+        &__arrow {
+            align-items: baseline!important;
+        }
+    }
+    .splide__arrow--prev {
+        left: 0em!important;
+    }
+      .splide__arrow--next {
+        right: 0em!important;
+    }
+    .slider-btn {
+        padding: 12px 25px;
+        font-size: 13px;
+    }
+    .footer {
+        &__links {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            grid-gap: 20px;
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        .links {
+            grid-gap: 10px;
+        }
+        .nav {
+            margin-top: 40px;
+            &-btn {
+                padding: 9px 13px;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+    .splide {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .slider__title {
+        font-size: 16px;
+    }
+    .slider-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    .footer {
+        &__links {
+            margin-bottom: 30px;
+            grid-gap: 10px;
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .header {
+        .links {
+            flex-wrap: wrap;
+            a {
+                font-size: 12px;
+                letter-spacing: 3.2px;
+            }
+        }
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .slider__title {
+        font-size: 14px;
+    }
+    .splide {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footer {
+        &__links {
+            flex-wrap: wrap;
+            a {
+                font-size: 12px;
+                letter-spacing: 3.2px;
+            }
+        }
+    }
+}

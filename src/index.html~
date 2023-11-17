@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <title>Chizhov</title>
+    <link rel="stylesheet" href="sass/blocks/_header.scss">
+</head>
+<body>
+<header class="header">
+    <div class="links">
+        <a href="#">Главная</a>
+        <a href="#">Проекты</a>
+        <a href="#">Чижов</a>
+        <a href="#">Контакты</a>
+        <a href="#">Заказать</a>
+    </div>
+    <div class="nav">
+        <button class="nav-btn">Все</button>
+        <button class="nav-btn">Шкафы</button>
+        <button class="nav-btn">Кухни</button>
+        <button class="nav-btn">Детские</button>
+        <button class="nav-btn">Общественные пространства</button>
+    </div>
+</header>
+<section class="splide" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide">Slide 01</li>
+            <li class="splide__slide">Slide 02</li>
+            <li class="splide__slide">Slide 03</li>
+        </ul>
+    </div>
+</section>
+<script src="js/script.js"></script>
+<script src="js/splide.min.js"></script>
+</body>
+</html>

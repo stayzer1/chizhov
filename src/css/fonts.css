@@ -1,0 +1,38 @@
+/* 400 */
+
+@font-face {
+    font-family: 'Mont';
+    font-display: swap;
+    src: local('Mont'),
+    url('../fonts/Mont-Light.ttf') format('truetype'),
+    url('../fonts/Mont-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 600 */
+
+@font-face {
+    font-family: 'Mont';
+    font-display: swap;
+    src: local('Mont'),
+    url('../fonts/Mont-Regular.ttf') format('truetype'),
+    url('../fonts/Mont-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* 800 */
+
+@font-face {
+    font-family: 'Mont';
+    font-display: swap;
+    src: local('Mont'),
+    url('../fonts/Mont-Bold.ttf') format('truetype'),
+    url('../fonts/Mont-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Bold.woff.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
