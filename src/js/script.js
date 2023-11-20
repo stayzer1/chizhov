@@ -18,3 +18,10 @@ for ( var i = 0; i < elms.length; i++ ) {
     }
   } ).mount();
 }
+
+const hamburger = document.querySelector('.promo__menu-hamburger');
+const menu = document.querySelector('.promo__menu-list');
+
+hamburger.addEventListener('click', function(e) {
+  menu.classList.toggle('active')
+})

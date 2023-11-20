@@ -1,6 +1,16 @@
 body {
   background: #222629;
 }
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding-left: 140px;
+  padding-right: 140px;
+}
 * {
   font-family: 'Mont',  sans-serif;
 }
@@ -13,3 +23,8 @@ a {
 @import "blocks/slider";
 @import "blocks/footer";
 @import "blocks/media";
+@import "blocks/promo";
+@import "blocks/premium";
+@import "blocks/providers";
+@import "blocks/form";
+@import "blocks/media-mainpage";

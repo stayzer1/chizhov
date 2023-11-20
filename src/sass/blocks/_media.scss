@@ -37,7 +37,6 @@
             flex-wrap: wrap;
         }
     }
-}
 .splide {
     margin-right: 80px;
     margin-left: 80px;
@@ -47,8 +46,9 @@
         margin-top: 70px;
         margin-bottom: 70px;
         letter-spacing: 1.5px;
-        grid-gap: 40px;
+            
     }
+}
 }
 @media (max-width: 767px) {
     .header {

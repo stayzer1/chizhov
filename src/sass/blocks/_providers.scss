@@ -1,0 +1,31 @@
+.providers {
+    display: flex;
+    &__left {
+        width: 570px;
+        float: left;
+        margin-right: 250px;
+        &__title {
+            color: #000;
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 210px;
+            margin-bottom: 20px;
+        }
+        &__subtitle {
+            color: #333;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 32px;
+        }
+    }
+    &__right {
+        float: right;
+        margin-top: 160px;
+        margin-bottom: 160px;
+        .grid__container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 70px;
+        }
+    }
+}
