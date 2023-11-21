@@ -16,7 +16,7 @@
                 <div class="promo__intro">
                     <div class="promo__subtitle">Бюро мебели</div>
                     <div class="promo__title">Сергея<br>Чижова</div>
-                    <button class="promo__btn">Смотреть Проекты</button>
+                    <button class="promo__btn" onclick="document.location='projects.html'">Смотреть Проекты</button>
                 </div>
                 <div class="promo__image">
                     <img src="img/Group 20.png" class="promo-image">
@@ -27,10 +27,10 @@
                         <span></span>
                     </div>
                     <div class="promo__menu-list">
-                        <a href="projects.html" class="promo__menu-link">Проекты<img src="img/Line4.png" alt=""></a>
-                        <a href="#" class="promo__menu-link">Чижов<img src="img/Line4.png" alt=""></a>
-                        <a href="#" class="promo__menu-link">Контакты<img src="img/Line4.png" alt=""></a>
-                        <a href="#" class="promo__menu-link">Заказать<img src="img/Line4.png" alt=""></a>
+                        <a href="projects.html" class="promo__menu-link">Проекты<img src="img/Line4.png" class="slidein" alt=""></a>
+                        <a href="#" class="promo__menu-link">Чижов<img src="img/Line4.png" class="slidein" alt=""></a>
+                        <a href="contacts.html" class="promo__menu-link">Контакты<img src="img/Line4.png" class="slidein" alt=""></a>
+                        <a href="#" class="promo__menu-link form-order__button">Заказать<img src="img/Line4.png" class="slidein" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -129,23 +129,38 @@
     <div class="form">
         <div class="form__wrapper">
             <div class="container">
-                <div class="form__left">
+                <form class="form__left">
                     <div class="form__left__title">Время обсудить<br>ваш проект</div>
                     <input type="text" placeholder="Ваш телефон" class="form__text">
                     <button class="form__btn">Обсудить проект</button>
-                </div>
+                </form>
                 <div class="form__right">
                     <img src="img/form_img.png" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <div class="modal">
+        <form class="form-order">
+            <div class="form-order__wrapper">
+                <div class="form-order__title">Время обсудить<br>ваш проект</div>
+                <input type="text" placeholder="Ваш телефон" class="form-order__text">
+                <button class="form-order__btn">Обсудить проект</button>
+            </div>
+            <div class="form-order__close">
+                    <svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="45.1335" y1="0.707107" x2="2.70709" y2="43.1335" stroke="#ECECEC" stroke-width="2"/>
+                        <line x1="43.7193" y1="43.1335" x2="1.29288" y2="0.707096" stroke="#F4F4F4" stroke-width="2"/>
+                    </svg> 
+            </div>
+        </form>
+    </div>
     <footer class="footer">
         <div class="footer__links">
-            <a href="#"style="color: #000;">Главная</a>
-            <a href="#"style="color: #000;">Проекты</a>
+            <a href="index.html"style="color: #000;">Главная</a>
+            <a href="projects.html"style="color: #000;">Проекты</a>
             <a href="#"style="color: #000;">Чижов</a>
-            <a href="#"style="color: #000;">Контакты</a>
+            <a href="contacts.html"style="color: #000;">Контакты</a>
             <a href="#"style="color: #000;">Заказать</a>
         </div>
     </footer>

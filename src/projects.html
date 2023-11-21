@@ -14,10 +14,10 @@
 <header class="header">
     <div class="links">
         <a href="index.html">Главная</a>
-        <a href="#">Проекты</a>
+        <a href="projects.html">Проекты</a>
         <a href="#">Чижов</a>
-        <a href="#">Контакты</a>
-        <a href="#">Заказать</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="#" class="form-order__button">Заказать</a>
     </div>
     <div class="nav">
         <button class="nav-btn">Все</button>
@@ -40,15 +40,15 @@
     <div class="splide__track">
         <ul class="splide__list">
             <li class="splide__slide">
-                <button class="slider-btn">ПОДРОБНЕЕ</button>
+                <button class="slider-btn" onclick="document.location='details.html'">ПОДРОБНЕЕ</button>
                 <img src="img/slide1.png" alt="">
             </li>
             <li class="splide__slide">
-                <button class="slider-btn">ПОДРОБНЕЕ</button>
+                <button class="slider-btn" onclick="document.location='details.html'">ПОДРОБНЕЕ</button>
                 <img src="img/slide1.png" alt="">
             </li>
             <li class="splide__slide">
-                <button class="slider-btn">ПОДРОБНЕЕ</button>
+                <button class="slider-btn onclick="document.location='details.html'"">ПОДРОБНЕЕ</button>
                 <img src="img/slide1.png" alt="">
             </li>
         </ul>
@@ -135,13 +135,28 @@
         </ul>
     </div>
 </section>
+<div class="modal">
+    <form class="form-order">
+        <div class="form-order__wrapper">
+            <div class="form-order__title">Время обсудить<br>ваш проект</div>
+            <input type="text" placeholder="Ваш телефон" class="form-order__text">
+            <button class="form-order__btn">Обсудить проект</button>
+        </div>
+        <div class="form-order__close">
+            <svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="45.1335" y1="0.707107" x2="2.70709" y2="43.1335" stroke="#ECECEC" stroke-width="2"/>
+                <line x1="43.7193" y1="43.1335" x2="1.29288" y2="0.707096" stroke="#F4F4F4" stroke-width="2"/>
+            </svg> 
+        </div>
+    </form>
+</div>
 <footer class="footer">
     <div class="footer__links">
-        <a href="#">Главная</a>
-        <a href="#">Проекты</a>
+        <a href="index.html">Главная</a>
+        <a href="projects.html">Проекты</a>
         <a href="#">Чижов</a>
-        <a href="#">Контакты</a>
-        <a href="#">Заказать</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="#" class="form-order__button">Заказать</a>
     </div>
 </footer>
 <script src="js/splide.min.js"></script>

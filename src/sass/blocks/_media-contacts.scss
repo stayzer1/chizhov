@@ -1,0 +1,106 @@
+@media (max-width: 1366px) {
+    .contacts__title {
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .contacts {
+        .back__btn {
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+        .contacts__number {
+            font-size: 27px;
+        }
+        .contacts__links {
+            margin-bottom: 25px;
+            a {
+                font-size: 18px;
+            }
+        }
+        .contacts__email, .contacts__address, .contacts__time {
+            font-size: 17px;
+        }
+        .contacts__feedbtn {
+            margin-top: 60px;
+            margin-bottom: 120px;
+            padding: 22px 42px;
+            font-size: 18px;
+        }
+    }
+    
+}
+@media (max-width: 369px) {
+    .container {
+        max-width: 320px;
+    }
+    .contacts__title {
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+    .contacts {
+        .back__btn {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .contacts__number {
+            font-size: 24px;
+        }
+        .contacts__links {
+            margin-bottom: 20px;
+            a {
+                font-size: 15px;
+            }
+        }
+        .contacts__email, .contacts__address, .contacts__time {
+            font-size: 15px;
+        }
+        .contacts__feedbtn {
+            margin-top: 50px;
+            margin-bottom: 40px;
+            padding: 22px 42px;
+            font-size: 15px;
+        }
+    }
+    #contacts__header {
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 290px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contacts__title {
+        font-size: 23px;
+    }
+    .contacts {
+        .back__btn {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 12px 14px;
+            font-size: 13px;
+        }
+        .contacts__number {
+            font-size: 22px;
+        }
+        .contacts__links {
+            margin-bottom: 15px;
+        }
+        .contacts__email, .contacts__address, .contacts__time {
+            font-size: 13px;
+        }
+        .contacts__time {
+            width: 200px;
+        }
+        .contacts__feedbtn {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px 15px;
+            font-size: 14px;
+            border: 1px solid #f15a22;
+        }
+    }
+}

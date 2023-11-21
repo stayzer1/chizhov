@@ -23,6 +23,7 @@
             text-transform: uppercase;
             margin-bottom: 60px;
             text-align: right;
+            transition: all 0.2s ease-in;
         }
         &-link:nth-child(7) {
             margin-bottom: 0;
@@ -56,6 +57,11 @@
         font-weight: 800;
         letter-spacing: 4px;
         text-transform: uppercase;
+        transition: all 0.1s ease-in;
+    }
+    &__btn:hover {
+        background: #F15A22;
+        color: #333;
     }
     &__image {
         margin-top: 135px;

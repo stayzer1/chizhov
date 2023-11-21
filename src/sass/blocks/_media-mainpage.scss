@@ -252,6 +252,29 @@
             }
         }
     }
+    .modal {
+        .form-order {
+            height: 500px;
+            width: 700px;
+            &__title {
+                font-size: 45px;
+                margin-top: 70px;
+            }
+            &__wrapper {
+                margin-left: 90px;
+            }
+            &__text {
+                width: 300px;
+                font-size: 19px;
+                padding-bottom: 18px;
+            }
+            &__btn {
+                width: 315px;
+                font-size: 18px;
+                border: 2px solid #fbfbfb;
+            }
+        }
+    }
 }
 @media (max-width: 1024px) {
     .container {
@@ -500,6 +523,19 @@
             }
         }
     }
+    .modal {
+        .form-order {
+            height: 430px;
+            width: 560px;
+            &__wrapper {
+                margin-left: 60px;
+            }
+            &__title {
+                font-size: 38px;
+                margin-top: 45px;
+            }
+        }
+    }
 }
 @media (max-width: 567px) {
     .container {
@@ -625,6 +661,32 @@
             letter-spacing: 1px;
         }
     }
+    .modal {
+        .form-order {
+            width: 480px;
+        }
+        &__wrapper {
+            margin-left: 35px;
+        }
+        &__title {
+            font-size: 33px;
+            margin-top: 35px;
+        }
+        &__text {
+            width: 230px;
+            font-size: 18px;
+            padding-bottom: 15px;
+            margin-bottom: 50px;
+        }
+        .form-order__close {
+            transform: translate(-15px,15px);
+            width: 30px;
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
 }
 @media (max-width: 480px) {
     .container {
@@ -705,6 +767,29 @@
             align-items: center;
         }
     }
+    .modal {
+        .form-order {
+            width: 320px;
+            &__wrapper {
+                margin-left: 25px;
+            }
+            &__title {
+                margin-top: 60px;
+                font-size: 27px;
+            }
+            &__text {
+                width: 210px;
+                font-size: 17px;
+                padding-bottom: 10px;
+            }
+            &__btn {
+                width: 245px;
+                font-size: 15px;
+                padding: 10px 11px;
+                letter-spacing: 2px;
+            }
+        }
+    }
 }
 @media (max-width: 320px) {
     .container {
@@ -744,6 +829,10 @@
         }
     }
     .premium {
+        &__intro__links a {
+            font-size: 17px;
+            margin-right: 10px;
+        }
         &__info {
             transform: translate(0,-65px);
             &-left {
@@ -799,6 +888,20 @@
             .grid__container {
                 gap: 10px;
                 row-gap: 20px;
+            }
+        }
+    }
+    .modal {
+        .form-order {
+            width: 290px;
+            height: 365px;
+            &__close {
+                transform: translate(-5px,5px);
+            }
+            &__text {
+                width: 190px;
+                font-size: 15px;
+                padding-bottom: 8px;
             }
         }
     }
