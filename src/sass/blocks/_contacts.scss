@@ -18,6 +18,11 @@
         cursor: pointer;
         margin-top: 100px;
         margin-bottom: 90px;
+        transition: all 0.2s ease-in;
+    }
+    .back__btn:hover {
+        background-color: #ECECEC;
+        color: #333;
     }
     &__title {
         color: #F15A22;
@@ -67,6 +72,11 @@
         text-transform: uppercase;
         margin-bottom: 150px;
         cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    &__feedbtn:hover {
+        background-color: #F15A22;
+        color: #ECECEC;
     }
 }
 

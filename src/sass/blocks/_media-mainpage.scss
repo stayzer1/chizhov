@@ -21,7 +21,7 @@
                 height: 480px;
             }
             &-link {
-                transform: translate(-525px,455px);
+                transform: translate(-535px,450px);
                 img {
                     width: 24px;
                     height: 24px;
@@ -124,6 +124,13 @@
             padding: 20px 30px;
             border: 2px solid #fbfbfb;
             font-size: 14px;
+        }
+    }
+    .modal {
+        .form-order {
+            height: 550px;
+            width: 800px;
+            top: -10%;
         }
     }
 }

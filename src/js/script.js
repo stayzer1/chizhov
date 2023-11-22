@@ -5,6 +5,7 @@ for ( var i = 0; i < elms.length; i++ ) {
   new Splide( elms[ i ], {
     gap: '30px',
     speed: '1000',
+    autoHeight: true,
     pagination: false,
     type: 'loop',
     breakpoints: {

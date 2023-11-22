@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <title>Chizhov</title>
+</head>
+<body>
+    <header class="header">
+        <div id="contacts__header" class="links">
+            <a href="index.html">Главная</a>
+            <a href="projects.html">Проекты</a>
+            <a href="#">Чижов</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="#" class="form-order__button">Заказать</a>
+        </div>
+    </header>
+    <div class="details">
+        <div class="container">
+            <button class="back__btn" onclick="document.location='projects.html'">< Назад</button>
+            <div class="details__title">Птицы и уют на Преображенке</div>
+            <div class="details__descr">
+                Объект: квартира в ЖК «Вавилова 4»<br>
+                Площадь: 135 м²<br>
+                Заказчики: молодая семья с ребенком<br>
+                Дизайн: Anga Project<br>
+            </div>
+            <div class="details__gps">Уютный уголок, о котором пойдёт речь, расположился в ЖК «Вавилова, 4» – современном комплексе бизнес-класса.</div>
+            <div class="details__images zero">
+                <img src="img/slide1.png" alt="">
+            </div>
+            <div class="details__text">
+                Начнем, пожалуй, с самого интересного. Итак, отдельный проект пришлось разработать для системы «Умный дом». Это наш первый опыт по работе с такими модулями, но обо всё по порядку.
+            </div>
+            <div class="details__images first">
+                <img src="img/details-1.png" alt="">
+                <img src="img/details-2.png" alt="">
+            </div>
+            <div class="details__text">
+                В доме была предустановлена система домофонии на базе ABB free@home, для которой требовалась покупка оборудования и панели. В ходе разработки проекта, заказчики захотели расширить систему домашней автоматизации и превратить ее в полноценный умный дом. С его помощью можно управлять освещением, вентиляцией и отоплением, к ней подключен домофон, мультимедиа и даже управление шторами на электроприводе. Также в приложении можно создавать сценарии, чтобы в определенное время квартира подстраивалась под хозяина. Например, вы приходите с работы, а датчики температуры уже позаботились о вас и заблаговременно включили теплый пол, заработали терморегуляторы, шторы приоткрылись – welcome home.<br>
+                <p></p>
+                При работе с системой возникли только небольшие сложности с точки зрения кондиционирования, потому что на момент установки еще не была выпущена надстройка. Но на данный момент все вопросы закрыты, и хозяева во всю тестируют возможности системы.
+            </div>
+            <div class="details__images second">
+                <img src="img/details-3.png" alt="">
+                <img src="img/details-4.png" alt="">
+                <img src="img/details-5.png" alt="">
+            </div>
+            <div class="details__text">
+                Для этой квартиры мы разработали инженерные проекты по водоснабжению, отоплению, электрике, кондиционированию и вентиляции.<br>
+                <p></p>
+                По проекту в квартире у нас три стояка: на кухне, в гостиной и в мастер-санузле. Гостевой санузел и кухню вывели на один в целях оптимизации средств. УК изначально были против переварки стояков, но в итоге все вопросы мы решили и теперь уверены в качестве сантехнического оборудования.<br>
+                <p></p>
+                Раздел электрики учитывает не только освещение, но и слаботочку. Здесь мы смонтировали бесшовный Wi-Fi и установили дополнительные точки доступа. В слаботочном щите установлен роутер-коммутатор и выведен кабель от щита до точек питания. Поэтому электрический и слаботочный щиты потребовали особой щепетильности – спланировать секции нужно было эргономично, ведь они получились достаточно габаритными. Проблему мы решили, спрятав щиты в шкаф – всё в доступе и не портит эстетику.
+            </div>
+            <div class="details__images third">
+                <img src="img/details-6.png" alt="">
+                <img src="img/details-7.png" alt="">
+                <img src="img/details-8.png" alt="">
+            </div>
+            <div class="details__nav">
+                <div class="details__nav-prev" onclick="document.location='mayak-details-details.html'">
+                    <div class="details__nav-prev__link">Предыдущий проект</div>
+                    <img src="img/details_prev_preobraj.png">
+                </div>
+                <div class="details__nav-projects" onclick="document.location='projects.html'">
+                    <button class="details__nav-projects__btn">Проекты</button>
+                    <img src="img/details_project_preobr.png">
+                </div>
+                <div class="details__nav-next" onclick="document.location='zachat-details.html'">
+                    <div class="details__nav-next__link">Следующий проект</div>
+                    <img src="img/details-next-preobr.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal animate__animated animate__fadeIn">
+        <form class="form-order">
+            <div class="form-order__wrapper">
+                <div class="form-order__title">Время обсудить<br>ваш проект</div>
+                <input type="text" placeholder="Ваш телефон" class="form-order__text">
+                <button class="form-order__btn">Обсудить проект</button>
+            </div>
+            <div class="form-order__close">
+                    <svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="45.1335" y1="0.707107" x2="2.70709" y2="43.1335" stroke="#ECECEC" stroke-width="2"/>
+                        <line x1="43.7193" y1="43.1335" x2="1.29288" y2="0.707096" stroke="#F4F4F4" stroke-width="2"/>
+                    </svg> 
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer__links">
+            <a href="index.html">Главная</a>
+            <a href="projects.html">Проекты</a>
+            <a href="#">Чижов</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="#" class="form-order__button">Заказать</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

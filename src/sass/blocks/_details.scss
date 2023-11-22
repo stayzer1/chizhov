@@ -36,8 +36,15 @@
     &__images {
         display: flex;
         flex-direction: row;
+        .zero {
+            img {
+                width: 1640px;
+            }
+        }
         img {
             margin-right: 40px;
+            width:800px;
+            height: 600px;
             
         }
         img:last-child {

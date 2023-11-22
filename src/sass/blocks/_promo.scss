@@ -25,6 +25,9 @@
             text-align: right;
             transition: all 0.2s ease-in;
         }
+        &-link:hover {
+            color: #F15A22;
+        }
         &-link:nth-child(7) {
             margin-bottom: 0;
         }
@@ -69,7 +72,7 @@
         position: relative;
         &-link {
             color: #333;
-            font-size: 12px;
+            font-size: 17px;
             font-weight: 400;
             letter-spacing: 2.4px;
             text-transform: uppercase;
@@ -78,6 +81,12 @@
             width: 120px;
             display: inline-flex;
             align-items: center;
+            transition: all 0.2s ease-in;
+    
         }
     }
+    &__image-link:hover {
+        color: #f15a22;
+    }
+
 }

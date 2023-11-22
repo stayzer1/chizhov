@@ -1,3 +1,32 @@
+@media (max-width: 1920px) {
+    .details {
+        .zero {
+            img {
+                width: 1640px;
+                height: 800px;
+            }
+        }
+        .second {
+            img {
+                width: 520px;
+                height: 440px;
+            }
+        }
+        &__nav {
+            justify-content: center;
+            img {
+                width: 478px;
+                height: 340px;
+            }
+            &-prev {
+                margin-right: 80px;
+            }
+            &-projects {
+                margin-right: 80px;
+            }
+        }
+    }
+}
 @media (max-width: 1366px) {
     .details {
         .zero {
@@ -25,6 +54,10 @@
         }
         .third {
             flex-wrap: wrap;
+            img {
+                width: 560px;
+                height: 550px;
+            }
             img:last-child {
                 margin: 0 auto;
             }
@@ -33,31 +66,35 @@
             }
             img:nth-child(2) {
                 margin-bottom: 40px;
+                margin-right: 0;
             }
         }
         &__nav {
             &-prev {
                 img {
                     width: 360px;
+                    height: 270px;
                 }
                 &__link {
-                    transform: translate(40px,100px);
+                    transform: translate(40px,120px);
                 }
             }
             &-projects {
                 img {
                     width: 360px;
+                    height: 270px;
                 }
                 &__btn {
-                    transform: translate(65px,70px);
+                    transform: translate(65px,90px);
                 }
             }
             &-next {
                 img {
                     width: 360px;
+                    height: 270px;
                 }
                 &__link {
-                    transform: translate(40px,100px);
+                    transform: translate(40px,120px);
                 }
             }
         }
@@ -112,27 +149,30 @@
             &-prev {
                 img {
                     width: 305px;
+                    height: 245px;
                 }
                 &__link {
-                    transform: translate(20px,90px);
+                    transform: translate(20px,110px);
                     font-size: 17px;
                 }
             }
             &-projects {
                 img {
                     width: 305px;
+                    height: 245px;
                 }
                 &__btn {
-                    transform: translate(45px,60px);
+                    transform: translate(45px,80px);
                     font-size: 17px;
                 }
             }
             &-next {
                 img {
                     width: 305px;
+                    height: 245px;
                 }
                 &__link {
-                    transform: translate(20px,90px);
+                    transform: translate(20px,110px);
                     font-size: 17px;
                 }
             }
@@ -144,6 +184,7 @@
         .zero {
             img {
                 width: 900px;
+                height: 700px;
             }
         }
         .first {
@@ -188,9 +229,10 @@
             &-prev {
                 img {
                     width: 273px;
+                    height: 215px;
                 }
                 &__link {
-                    transform: translate(65px,70px);
+                    transform: translate(65px,90px);
                     font-size: 16px;
                     width: 240px;
                 }
@@ -198,18 +240,20 @@
             &-projects {
                 img {
                     width: 273px;
+                    height: 215px;
                 }
                 &__btn {
-                    transform: translate(50px,50px);
+                    transform: translate(50px,70px);
                     padding: 20px 30px;
                 }
             }
             &-next {
                 img {
                     width: 273px;
+                    height: 215px;
                 }
                 &__link {
-                    transform: translate(65px,70px);
+                    transform: translate(65px,90px);
                     font-size: 16px;
                     width: 240px;
                 }
@@ -267,9 +311,10 @@
             &-prev {
                 img {
                     width: 223px;
+                    height: 200px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                     font-size: 16px;
                     width: 150px;
                 }
@@ -277,18 +322,20 @@
             &-projects {
                 img {
                     width: 223px;
+                    height: 200px;
                 }
                 &__btn {
-                    transform: translate(25px,35px);
+                    transform: translate(25px,60px);
                     padding: 20px 30px;
                 }
             }
             &-next {
                 img {
                     width: 223px;
+                    height: 200px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                     font-size: 16px;
                     width: 150px;
                 }
@@ -301,6 +348,7 @@
         .zero {
             img {
                 width: 600px;
+                height: 500px;
             }
         }
         .first {
@@ -351,7 +399,7 @@
                     width: 223px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                 }
             }
             &-projects {
@@ -361,7 +409,7 @@
                     width: 223px;
                 }
                 &__btn {
-                    transform: translate(25px,35px);
+                    transform: translate(25px,60px);
                 }
             }
             &-next {
@@ -370,7 +418,7 @@
                     width: 223px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                 }
             }
         }
@@ -381,6 +429,7 @@
         .zero {
             img {
                 width: 480px;
+                height: 400px;
             }
         }
         .first {
@@ -435,6 +484,7 @@
         .zero {
             img {
                 width: 350px;
+                height: 300px;
             }
         }
         .first {
@@ -498,7 +548,7 @@
                     width: 223px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                 }
             }
             &-projects {
@@ -508,7 +558,7 @@
                     width: 223px;
                 }
                 &__btn {
-                    transform: translate(25px,35px);
+                    transform: translate(25px,60px);
                 }
             }
             &-next {
@@ -517,7 +567,7 @@
                     width: 223px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                 }
             }
         }
@@ -591,7 +641,7 @@
                     width: 223px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                 }
             }
             &-projects {
@@ -601,7 +651,7 @@
                     width: 223px;
                 }
                 &__btn {
-                    transform: translate(25px,35px);
+                    transform: translate(25px,60px);
                 }
             }
             &-next {
@@ -610,7 +660,7 @@
                     width: 223px;
                 }
                 &__link {
-                    transform: translate(40px,55px);
+                    transform: translate(40px,80px);
                 }
             }
         }
