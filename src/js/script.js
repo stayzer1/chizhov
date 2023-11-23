@@ -1,6 +1,4 @@
-const elms = document.getElementsByClassName( 'splide');
-
-
+const elms = document.getElementsByClassName( 'splide__main');
 for ( var i = 0; i < elms.length; i++ ) {
   new Splide( elms[ i ], {
     gap: '30px',
@@ -19,6 +17,15 @@ for ( var i = 0; i < elms.length; i++ ) {
     }
   } ).mount();
 }
+new Splide( '#splide1', {
+  interval: 4000,
+  speed: 800,
+  autoplay: "play",
+  pagination: true,
+  type: 'loop'
+} ).mount();
+
+
 const hamburger = document.querySelector('.promo__menu-hamburger');
 const menu = document.querySelector('.promo__menu-list');
 
