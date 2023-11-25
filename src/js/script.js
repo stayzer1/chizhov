@@ -3,7 +3,7 @@ for ( var i = 0; i < elms.length; i++ ) {
   new Splide( elms[ i ], {
     gap: '30px',
     speed: '1000',
-    autoHeight: true,
+    // autoHeight: true,
     pagination: false,
     type: 'loop',
     breakpoints: {
@@ -17,13 +17,17 @@ for ( var i = 0; i < elms.length; i++ ) {
     }
   } ).mount();
 }
-new Splide( '#splide1', {
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide( '#splide1', {
   interval: 4000,
   speed: 800,
   autoplay: "play",
+  perPage: 1,
   pagination: true,
   type: 'loop'
 } ).mount();
+});
+
 
 
 const hamburger = document.querySelector('.promo__menu-hamburger');
