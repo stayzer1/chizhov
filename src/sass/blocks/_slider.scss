@@ -16,6 +16,14 @@
 .splide__arrow {
     background: none!important;
 }
+.splide__projects {
+    .splide__arrow--next {
+        transform: translateX(-100px);
+    }
+    .splide__arrow--prev {
+        transform: translateX(100px);
+    }
+}
 .slider__title {
     color: #F4F4F4;
     font-size: 24px;

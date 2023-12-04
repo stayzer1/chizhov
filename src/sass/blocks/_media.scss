@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+@media (max-width: 1920px) { 
     .splide__projects {
         .splide__slide {
             img {
@@ -9,6 +9,11 @@
 }
 @media (max-width: 1200px) {
     .splide__projects {
+        .splide__arrow {
+            img {
+                height: 80px;
+            }
+        }
         .splide__slide {
             img {
                 height: 586px;
